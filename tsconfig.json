@@ -1,0 +1,47 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/NJSLabCore/",
+    "sourceMap": true,
+    "noImplicitAny": true,
+    // "module": "commonjs",
+    "module": "esnext",
+    "target": "es5",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "allowJs": true,
+    "lib": [
+      "dom",
+      "es6",
+      "scripthost",
+      "es2015.promise"
+    ],
+    // "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": false,
+    "strictPropertyInitialization": false,
+    "noEmit": true,
+    "no-trailing-whitespace": true,
+    // "sourceMap": true,
+    // "rootDir": "src",
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    // "noImplicitAny": true,
+    "strictNullChecks": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "noUnusedLocals": true,
+    "declaration": false,
+    "typeRoots": [
+      "./node_modules/@types"
+    ],
+    "types": [
+      "node",
+    ]
+  },
+  "include": [
+    "src/**/*"
+  ]
+}
