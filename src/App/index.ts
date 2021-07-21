@@ -1,3 +1,4 @@
+import { version } from '@tensorflow/tfjs';
 import { HTMLCanvasSandbox as HTMLCanvasSandboxV1 } from './HTMLCanvasSandbox';
 export class App {
     id: string;
@@ -19,5 +20,6 @@ export class App {
                 this.sandBox = new HTMLCanvasSandboxV1(this.id);
                 break;
         }
+        console.log('TensorfowJS Version : ', version);
     }
 }
