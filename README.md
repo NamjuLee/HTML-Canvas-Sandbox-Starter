@@ -21,13 +21,13 @@ ActiveCommandController, Canvas, MouseInteraction, Renderer, Geometry, Scene, UI
 
 [THREE, TensorflowJS Starter](https://github.com/NamjuLee/three-tensorflow-typescript-starter)
 
-[WebGL Starter]()
-
-[WebGL GLSL Starter]()
+[WebGL2, React, TensorflowJS, Typescript Starter](https://github.com/NamjuLee/react-typescript-tf-webG2L-starter)
 
 [HTML Canvas, TensorflowJS Starter](https://github.com/NamjuLee/HTML-Canvas-tensorflow-sandbox-starter)
 
-[Tensorflow JS Starter]()
+[HTML Canvas, TensorflowJS, React Starter](https://github.com/NamjuLee/NJSLab-web-react-tf-sandbox-starter)
+
+[Typescirpt, HTML Canvas Starter for Mapping(JSAPI) Visualization](https://github.com/NamjuLee/mapping-and-visualization)
 
 [Typescript, React Starter](https://github.com/NamjuLee/react-typescript-starter) 
 
