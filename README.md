@@ -25,7 +25,7 @@ ActiveCommandController, Canvas, MouseInteraction, Renderer, Geometry, Scene, UI
 
 [WebGL GLSL Starter]()
 
-[HTML Canvas, TensorflowJS Starter](https://github.com/NamjuLee/HTML-Canvas-Sandbox-Starter)
+[HTML Canvas, TensorflowJS Starter](https://github.com/NamjuLee/HTML-Canvas-tensorflow-sandbox-starter)
 
 [Tensorflow JS Starter]()
 
