@@ -80,10 +80,8 @@ export class ActiveCommandController {
     public pushActionFromPulldown(v: string) {
         const command = v.split('@');
         switch (command[0]) {
-            case '':
-                //
+            case 'point':
                 break;
-
             default:
                 break;
         }

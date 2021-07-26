@@ -10,7 +10,7 @@ export interface IImplmentation {
 export class Implmentations {
     public sandbox: HTMLCanvasSandbox;
     public implementation: IImplmentation | undefined = undefined;
-    constructor(sandbox: HTMLCanvasSandbox, typeOfImplementation: number = 1) {
+    constructor(sandbox: HTMLCanvasSandbox, typeOfImplementation: number = -1) {
         this.sandbox = sandbox;
 
         switch (typeOfImplementation) {

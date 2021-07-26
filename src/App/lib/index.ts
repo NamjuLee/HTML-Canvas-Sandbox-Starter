@@ -79,9 +79,7 @@ export class NVector3 {
         this.y = y;
         this.z = z;
     }
-
 }
-
 // https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D
 export const LineByVecs = (ctx: CanvasRenderingContext2D, v0: NVector3, v1: NVector3, width: number = 1, fill: string = '#ff0000') => {
     ctx.strokeStyle = fill;
@@ -101,20 +99,6 @@ export const Line = (ctx: CanvasRenderingContext2D, x0: number, y0: number, x1: 
     ctx.closePath();
     ctx.stroke();
 };
-export const Point = (ctx: CanvasRenderingContext2D, x: number, y: number, r: number = 5, fill: string = '#ff0000') => {
-    ctx.fillStyle = fill;
-    ctx.beginPath();
-    ctx.arc(x, y, r, 0, Math.PI * 2);
-    ctx.closePath();
-    ctx.fill();
-};
-export const PointByNVec = (ctx: CanvasRenderingContext2D, v: NVector3, r: number = 5, fill: string = '#ff0000') => {
-    ctx.fillStyle = fill;
-    ctx.beginPath();
-    ctx.arc(v.x, v.y, r, 0, Math.PI * 2);
-    ctx.closePath();
-    ctx.fill();
-};
 export const GridLineOrigin = (ctx: CanvasRenderingContext2D, xNum: number = 10, yNum: number = 10, xOff: number = 20, yOff: number = 20) => {
     const xStart = - ((xNum * xOff) * 0.5);
     const yStart = - ((yNum * yOff) * 0.5);
@@ -133,17 +117,4 @@ export const GridLineOrigin = (ctx: CanvasRenderingContext2D, xNum: number = 10,
         ctx.stroke();
     }
 
-};
-export const GridPointOrigin = (ctx: CanvasRenderingContext2D, xNum: number = 10, yNum: number = 10, xOff: number = 20, yOff: number = 20) => {
-    const xStart = - ((xNum * xOff) * 0.5);
-    const yStart = - ((yNum * yOff) * 0.5);
-    ctx.lineWidth = 0.1;
-    for (let y = 0; y <= yNum; ++y) {
-        for (let x = 0; x <= xNum; ++x) {
-            ctx.beginPath();
-            ctx.arc(xStart + (xOff * x), yStart + (yOff * y), 1, 0, Math.PI * 2);
-            ctx.closePath();
-            ctx.fill();
-        }
-    }
 };
