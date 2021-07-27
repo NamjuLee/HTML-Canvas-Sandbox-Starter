@@ -18,7 +18,7 @@ export class Core {
         this.canvas = new Canvas(this, div);
     }
     private InitPulldown() {
-        //
+        // TODO:
     }
     public InitPost() {
         this.ioWrapper.InitEventListener(this.sandbox.div as HTMLDivElement);

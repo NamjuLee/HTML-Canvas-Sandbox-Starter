@@ -1,11 +1,11 @@
 import { version } from '@tensorflow/tfjs';
 import { HTMLCanvasSandbox as HTMLCanvasSandboxV1 } from './HTMLCanvasSandbox';
 export class App {
-    id: string;
-    sandBox: HTMLCanvasSandboxV1;
-    hostDiv: HTMLElement;
-    div: HTMLElement;
-    version: number = 1;
+    public id: string;
+    public sandBox: HTMLCanvasSandboxV1;
+    public hostDiv: HTMLElement;
+    public div: HTMLElement;
+    public version: number = 1;
     static Init(id: string = 'SandBox') {
         new App(id, 1);
     }
