@@ -4,6 +4,8 @@ nj.namju@gmail.com
 
 www.njstudio.co.kr
 
+Tistory Index: https://computationaldesign.tistory.com/40
+
 This code is for the those who want to learn or develop CAD systems, Visualization, or Drawing tools based on HTML Canvas.
 
 ActiveCommandController, Canvas, MouseInteraction, Renderer, Geometry, Scene, UI
@@ -14,6 +16,11 @@ ActiveCommandController, Canvas, MouseInteraction, Renderer, Geometry, Scene, UI
 
 [Typescript](https://www.typescriptlang.org/)
 
+----
+
+<a href="https://youtu.be/vcV3mgyQXeQ" rel="some text">
+<img src="https://img.youtube.com/vi/vcV3mgyQXeQ/mqdefault.jpg" width="300px" />
+</a>
 
 ----
 
