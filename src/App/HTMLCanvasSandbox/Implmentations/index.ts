@@ -10,7 +10,7 @@ export interface IImplmentation {
 export class Implmentations {
     public sandbox: HTMLCanvasSandbox;
     public implementation: IImplmentation | undefined = undefined;
-    constructor(sandbox: HTMLCanvasSandbox, typeOfImplementation: number = -1) {
+    constructor(sandbox: HTMLCanvasSandbox, typeOfImplementation: number = 2) {
         this.sandbox = sandbox;
 
         switch (typeOfImplementation) {
@@ -19,6 +19,11 @@ export class Implmentations {
                 break;
             case 1:
                 this.implementation = new SimpleCadSystem(this);
+                break;
+            case 2:
+                import('./TypescriptBasic').then(({ TypescriptBasic }) => {
+                    new TypescriptBasic();
+                }).catch((err) => { console.log('Stop loading Typescript Basic.'); console.log(err); });
                 break;
             default:
                 break;

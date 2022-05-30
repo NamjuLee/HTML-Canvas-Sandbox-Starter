@@ -38,10 +38,10 @@ ActiveCommandController, Canvas, MouseInteraction, Renderer, Geometry, Scene, UI
 
 [Typescript, React Starter](https://github.com/NamjuLee/react-typescript-starter) 
 
-
+[Desktop App Starter: Electron, HTML Canvas, TensorflowJS, Typescript](https://github.com/NamjuLee/electron-canvas-sandbox-starter)
 
 ----
-Webpack 4 + TypeScript starter
+Electron + Webpack 5 + TypeScript starter
 ------------------------------
 
 [![Build Status](https://travis-ci.org/juristr/webpack-typescript-starter.svg?branch=master)](https://travis-ci.org/juristr/webpack-typescript-starter)

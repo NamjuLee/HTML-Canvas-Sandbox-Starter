@@ -28,7 +28,7 @@ export class HTMLCanvasSandbox {
         }
 
         this.core = new Core(this, div);
-        this.implmentations = new Implmentations(this, 0);
+        this.implmentations = new Implmentations(this);
         this.InitEvent();
     }
     private InitEvent() {
